@@ -139,7 +139,7 @@ output "web_server_public_ip" {
 }
 
 # 8. AWS Elastic Container Registry (ECR)
-resource "aws_ecr_repository" "my-devops-app-v2" {
+resource "aws_ecr_repository" "app_repo" {
   name                 = "my-devops-app-v2"
   image_tag_mutability = "MUTABLE"
 
